@@ -1,140 +1,120 @@
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
+    <title>Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f4f4f9;
             color: #333;
         }
         .container {
-            width: 80%;
-            margin: 0 auto;
+            max-width: 800px;
+            margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3 {
+        h1, h2 {
             color: #333;
         }
-        .header {
-            text-align: center;
-            margin-bottom: 20px;
+        h1 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
         }
-        .header h1 {
-            margin: 0;
-            font-size: 36px;
+        ul {
+            list-style: none;
+            padding: 0;
         }
-        .header p {
-            margin: 0;
-            font-size: 18px;
-            color: #555;
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         .section {
             margin-bottom: 20px;
         }
-        .section h2 {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
-        .section ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        .section ul li {
-            margin-bottom: 10px;
-        }
-        .section ul li span {
-            font-weight: bold;
-        }
-        .footer {
-            text-align: center;
-            font-size: 14px;
-            color: #777;
-            margin-top: 20px;
-        }
     </style>
 </head>
 <body>
-
     <div class="container">
-        <div class="header">
-            <h1>Your Name</h1>
-            <p>Email: your.email@example.com | Phone: (123) 456-7890 | LinkedIn: linkedin.com/in/yourname</p>
-        </div>
+        <h1>Adeen Ali Khan</h1>
+        <p><strong>Email:</strong> <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+        <p><strong>Phone:</strong> <a href=" https://github.com/adeenalikhan" target="_blank"> +1 (123) 456-7890 </a> </p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/adeenalikhan" target="_blank">github.com/adeenalikhan</a></p>
 
-        <div class="section">
-            <h2>Objective</h2>
-            <p>A short paragraph explaining your career goals and what you aim to achieve in your next role.</p>
-        </div>
-
-        <div class="section">
-            <h2>Experience</h2>
-            <ul>
-                <li>
-                    <span>Job Title</span> - Company Name (Month/Year - Present)
-                    <ul>
-                        <li>Describe your responsibilities and achievements here.</li>
-                        <li>Another key responsibility or achievement.</li>
-                    </ul>
-                </li>
-                <li>
-                    <span>Previous Job Title</span> - Previous Company Name (Month/Year - Month/Year)
-                    <ul>
-                        <li>Responsibilities and achievements for the previous role.</li>
-                        <li>Another key responsibility or achievement.</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Education</h2>
-            <ul>
-                <li>
-                    <span>Degree</span> - University Name (Graduation Year)
-                    <ul>
-                        <li>Relevant coursework or achievements.</li>
-                    </ul>
-                </li>
-                <li>
-                    <span>High School Diploma</span> - High School Name (Year)
-                    <ul>
-                        <li>Any achievements or activities worth mentioning.</li>
-                    </ul>
-                </li>
-            </ul>
+         <div class="section">
+            <h2>Summary</h2>
+            <p>Experienced full-stack developer with expertise in modern web technologies and a passion for creating efficient and user-friendly web applications.</p>
         </div>
 
         <div class="section">
             <h2>Skills</h2>
             <ul>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
-                <li>Skill 4</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Angular, Vue.js</li>
+                <li>Node.js, Express</li>
+                <li>Python, Django, Flask</li>
+                <li>MySQL, PostgreSQL, MongoDB</li>
+                <li>Git, GitHub, CI/CD</li>
             </ul>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <h3>Full-Stack Developer - ABC Company</h3>
+            <p><em>Jan 2020 - Present</em></p>
+            <ul>
+                <li>Developed and maintained web applications using React and Node.js.</li>
+                <li>Collaborated with cross-functional teams to design and implement new features.</li>
+                <li>Optimized application performance, reducing load times by 30%.</li>
+            </ul>
+
+            <h3>Frontend Developer - XYZ Inc.</h3>
+            <p><em>Jun 2018 - Dec 2019</em></p>
+            <ul>
+                <li>Created responsive user interfaces using HTML, CSS, and JavaScript.</li>
+                <li>Integrated APIs to fetch and display dynamic data.</li>
+                <li>Worked closely with designers to ensure pixel-perfect implementation.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <h3>Bachelor of Science in Software Engineering</h3>
+            <p><em>Muhammad Ali Jinnah University - Graduated May 2024</em></p>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <h3><a href="https://github.com/johndoe/project1" target="_blank">Project 1</a></h3>
+            <p>A web application for task management built with React and Firebase.</p>
+
+            <h3><a href="https://github.com/johndoe/project2" target="_blank">Project 2</a></h3>
+            <p>An e-commerce platform created using Node.js, Express, and MongoDB.</p>
         </div>
 
         <div class="section">
             <h2>Certifications</h2>
             <ul>
-                <li>Certification Name - Issuer (Month/Year)</li>
-                <li>Another Certification Name - Issuer (Month/Year)</li>
+                <li>Certified Web Developer - Coding Academy</li>
+                <li>JavaScript Specialist - Tech Institute</li>
             </ul>
         </div>
 
-        <div class="footer">
-            <p>References available upon request</p>
-        </div>
+        <footer>
+            <p>© 2025 Adeen Ali Khan. All rights reserved.</p>
+        </footer>
     </div>
-
 </body>
 </html>
