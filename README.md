@@ -1,7 +1,11 @@
 <title>Resume</title> <style> body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f9; color: #333; } .container { max-width: 800px; margin: 20px auto; padding: 20px; background: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); } h1, h2 { color: #333; } h1 { border-bottom: 2px solid #4CAF50; padding-bottom: 10px; } ul { list-style: none; padding: 0; } li { margin-bottom: 10px; } a { color: #4CAF50; text-decoration: none; } a:hover { text-decoration: underline; } .section { margin-bottom: 20px; } </style>
-     
-     
-     
+Adeen Ali Khan
+Email: john.doe@example.com
+
+Phone: +1 (123) 456-7890
+
+GitHub: github.com/adeenalikhan
+
      <div class="section">
         <h2>Summary</h2>
         <p>Experienced full-stack developer with expertise in modern web technologies and a passion for creating efficient and user-friendly web applications.</p>
